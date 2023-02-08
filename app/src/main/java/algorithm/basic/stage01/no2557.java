@@ -1,4 +1,4 @@
-package algorithm.basic;
+package algorithm.basic.stage01;
 
 public class no2557 {
     public static void main(String[] args) {

@@ -3,10 +3,15 @@
  */
 package algorithm;
 
+import java.time.LocalDate;
+
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("hi");
+        String nowYear = LocalDate.now().toString();
+        String[] onlyYear = nowYear.split("-", 0); // Array, convert to string
+        String onlyYear2 = nowYear.substring(0, 4);
+        System.out.println(onlyYear2);
     }
 
 }
