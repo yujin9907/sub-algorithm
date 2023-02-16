@@ -1,0 +1,96 @@
+[
+    {
+        "KKO_MSG": "카카오 발송 메시지 내용 / TEMP 테이블에서 갖다 씀",
+        "KKO_TEMPLATE_CD": "RESERVATION_INFORMATION_T02 / 카카오 비즈온의 실제 탬플릿 코드 / Kakao_template > temp_cd",
+        "KKO_TEMPLATE_TYPE": "AT / AT 일반적인 텍스트형 템플릿 / AI 이미지형 탬플릿",
+        "TITLE": "예약안내",
+        "PHONE_MSG": "SMS 부달 발송시 메시지 내용",
+        "SEND_TYPE": "S / 부달시 발송 타입 S 실시간 M 배치",
+        "MSG_TYPE": "KM / 메시지 타입 테이블 확인",
+        "MOBILE_NO": "01094706087 / 수신자 번호",
+        "SENDER_NO": "0513297777 / 발신자 번호",
+        "CLIENT_ID": "R000000023_003",
+        "KKO_APP_USER_ID": "",
+        "RESERVE_DATE": "",
+        "MMS_IMG1": "",
+        "MMS_IMG2": "",
+        "MMS_IMG3": "",
+        "KKO_BTN_LINK1": {
+            "name": "예약 서비스센터 안내",
+            "type": "WL",
+            "url_mobile": "http://h.volvocars.co.kr/services/location_service.asp",
+            "url_pc": "http://h.volvocars.co.kr/services/location_service.asp"
+        },
+        "KKO_BTN_LINK2": "",
+        "KKO_BTN_LINK3": "",
+        "KKO_BTN_LINK4": "",
+        "KKO_BTN_LINK5": "",
+        "TAX_CD1": "",
+        "TAX_CD2": "",
+        "NAT_CD": "",
+        "KKO_QUICK_REPLY1": "",
+        "KKO_QUICK_REPLY2": "",
+        "KKO_QUICK_REPLY3": "",
+        "KKO_QUICK_REPLY4": "",
+        "KKO_QUICK_REPLY5": "",
+        "KKO_QUICK_REPLY6": "",
+        "KKO_QUICK_REPLY7": "",
+        "KKO_QUICK_REPLY8": "",
+        "KKO_QUICK_REPLY9": "",
+        "KKO_QUICK_REPLY10": "",
+        "EMPHASIZE_TITLE": "",
+        "HEADER": "서비스 바이 볼보입니다.",
+        "ITEM_HIGHLIGHT": "",
+        "ITEM": {
+            "list": [
+                {
+                    "title": "예약일자",
+                    "description": "2022/07/04 (월)"
+                },
+                {
+                    "title": "예약시간",
+                    "description": "15:00"
+                },
+                {
+                    "title": "차량번호",
+                    "description": "34머4524"
+                },
+                {
+                    "title": "예약센터",
+                    "description": "볼보 성수 서비스센터"
+                },
+                {
+                    "title": "센터주소",
+                    "description": "서울 성동구 성수이로20길 50"
+                },
+                {
+                    "title": "예약문의",
+                    "description": "1588-7060"
+                }
+            ]
+        },
+        "company": "VCK",
+        "brand": "VO",
+        "department": "service",
+        "business_number": "6068626699",
+        "user_code": "HMSS",
+        "user_name": "볼보 성수 서비스센터",
+        "customer_code": "2050464",
+        "message_kind": "BK",
+        "register_userid": "MHJ",
+        "register_username": "문현준",
+        "vin": "YV1BZ82K6E1180782",
+        "plateno": "34머4524",
+        "rono": "BHMSS22070016",
+        "reserved01": "BHMSS22070016_BK_20230214094209",
+        "reserved02": "",
+        "reserved03": "",
+        "reserved04": "",
+        "reserved05": "",
+        "reserved06": "",
+        "reserved07": "",
+        "reserved08": "",
+        "reserved09": "",
+        "reserved10": "INSERT INTO kakao_result (k_msg_key, dlr_cd, ro_no, carno, cust_tel, message_kind, kko_template_cd, kko_template_type, Estimate_key, invoice_key, checklist_key, data_in_dt, data_in_user, send_fl) \r\n\t\t\t\t\t\tVALUES ( 'BHMSS22070016_BK_20230214094209','HMSS','BHMSS22070016','34머4524','01094706087','BK','RESERVATION_INFORMATION_T02','AT','','','',getdate(),'mhj 문현준','DMS')"
+    }
+]

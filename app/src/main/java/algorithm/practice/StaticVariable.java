@@ -1,6 +1,8 @@
 package algorithm.practice;
 
 public class StaticVariable {
+    // 변수 스코프 알아보기 위해서
+
     int num;
 
     void getVariable() {
